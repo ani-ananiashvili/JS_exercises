@@ -1,1 +1,1 @@
-# JS_exercises
+# JS_exercises_N1
