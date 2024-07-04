@@ -29,8 +29,8 @@ switch case ის საშუალებით დაწერეთ, თუ 
 
 let name2 = "Mariam";
 
-switch ("Mariam") {
-  case name2:
+switch (name2) {
+  case "Mariam":
     console.log(true);
     break;
   default:
@@ -102,7 +102,7 @@ for (let i = 0; i < array6.length; i++) {
   if (array6[i] % 2 === 0) {
     console.log(array6[i]);
   }
-};
+}
 
 /* 8. მოცემულია მასივი: 
 
@@ -124,4 +124,4 @@ for (let i = 0; i < users.length; i++) {
   if (users[i].status === true) {
     console.log(users[i]);
   }
-};
+}
